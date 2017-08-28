@@ -1,11 +1,11 @@
-#API HACK MTY
+# API HACK MTY
 
 
-##Servicios:
+## Servicios:
 
 ***Ejecutar código y recibir resultado de consola***
 
-###Método GET:
+### Método GET:
 
 /api/v1/executeCode?foldername=XXXXX&scriptCount=#
 
@@ -13,7 +13,7 @@
 
 ***Crear nuevo folder para usuario***
 
-###Método POST:
+### Método POST:
 
 /api/v1/createFolder?foldername=XXXXX
 
@@ -21,7 +21,7 @@
 
 ***Recibir script para guardarlo en carpeta del usuario***
 
-###Método POST:
+### Método POST:
 
 /api/v1/receiveScript?foldername=XXXXX&scriptCount=#
 
@@ -29,12 +29,12 @@
 
 ***Acabar sesión de usuario para eliminar archivos***
 
-###Método POST:
+### Método POST:
 
 /api/v1/endSession?foldername=XXXXX&scriptCount=#
 
 
-####_Descripción de parámetros:_
+#### _Descripción de parámetros:_
 
 >foldername: Sesión del usuario
 >scriptCount: Número del script abierto (pestaña de script)
